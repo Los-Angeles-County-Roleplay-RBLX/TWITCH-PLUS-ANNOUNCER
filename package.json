@@ -1,0 +1,26 @@
+{
+  "name": "qtweet",
+  "version": "1.0.0",
+  "description": "A cute bot who cross-posts twitter posts to Discord",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "yarn eslint src/* --fix"
+  },
+  "author": "Thomas Navennec",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0"
+  },
+  "dependencies": {
+    "dblapi.js": "^2.3.0",
+    "discord.js": "^12.0.2",
+    "esm": "^3.2.25",
+    "fluent": "^0.12.0",
+    "fortune-teller": "^0.1.2",
+    "pg": "^8.2.1",
+    "twitter-lite": "latest",
+    "unfurl.js": "^3.0.1"
+  }
+}
